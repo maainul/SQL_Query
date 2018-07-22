@@ -25,3 +25,8 @@ The NOT operator displays a record if the condition(s) is NOT TRUE.
   
   SELECT * FROM Customers
   WHERE City='Berlin' OR City='München';
+
+  SELECT * FROM Customers
+  WHERE Country='Germany' AND (City='Berlin' OR City='München');
+
+        
